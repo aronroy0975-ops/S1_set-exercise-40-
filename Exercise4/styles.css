@@ -1,0 +1,89 @@
+/* Stylinf for Exercise 4 */
+body {
+    margin: 0;
+    background-color: #f06292; /* strong pink background color*/
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for header section*/
+header {
+    position: relative;
+    text-align: center;
+    padding: 20px 0 10px;
+}
+
+.divider {
+    font-size: 40px;
+    color: #333;
+    letter-spacing: 10px;
+}
+
+.shopping{
+    display: flex;
+    justify-content: flex-end;  /* styling push cart to right */
+    margin: 1rem 43rem 0 0 ;              /* spacing between divider & image */
+}
+
+.shopping-icon{
+     width: 28px;   /* styling small  */
+    height: auto;
+    cursor: pointer;
+}
+
+
+/* Styling Main Container*/
+.container {
+    width: 520px;
+    margin: auto;
+}
+
+/* Styling the cards */
+.image {
+    margin-bottom: 25px;
+}
+
+/* Styling Images */
+.image img {
+    width: 100%;
+    display: block;
+}
+
+/* Styling the Caption */
+.text {
+    background-color: #efe8d2;
+    color: #32c5d2;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    line-height: 1.2;
+}
+
+/* Styling for the button */
+.button {
+    font-size: 11px;
+    padding: 3px 6px;
+    background-color: #ddd;
+    display: inline-block;
+    margin-top: 3px;
+    border: 1px solid #aaa;
+    cursor: pointer;
+}
+
+/* Styling for footer */
+footer {
+    padding: 20px;
+    font-size: 16px;
+}
+
+footer ul {
+    margin-top: 10px;
+}
+
+footer li {
+    margin-bottom: 5px;
+}
+
+footer a {
+    color: blue;
+    font-weight: bold;
+}

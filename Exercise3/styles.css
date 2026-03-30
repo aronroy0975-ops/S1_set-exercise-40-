@@ -1,0 +1,83 @@
+/* Styling for Exercise 3 */
+body {
+    font-family: Georgia, serif;
+    background: #cfcfcf;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Styling for main container  */
+main {
+    width: 700px;
+    margin: 0 auto;
+    background: #e6e6e6;
+    padding: 20px;
+}
+
+/* Styling for Header */
+header {
+    text-align: center;
+}
+
+/* Styling for Title */
+h1 {
+    font-size: 4.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Styling for Navigation */
+nav {
+    margin-bottom: 1.5rem;
+}
+
+nav a {
+    margin: 0 20px;
+    font-size: 1rem;
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Styling for Intro section */
+.introduction {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+/* Styling for Paragraph text */
+.paragraph {
+    flex: 1;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* Styling for the Side image */
+.image img {
+    width: 250px;
+}
+
+/* Styling for Video and image */
+.video {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.video video,
+.video img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Styling for Gallery */
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
